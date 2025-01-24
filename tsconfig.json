@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./out",
+        "target": "ES6",
+        "module": "CommonJS",
+        "noUnusedParameters": true,
+        "downlevelIteration": true,
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "types": [
+            "node",
+            "fs-extra",
+            "jest"
+        ]
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "tests"
+    ]
+}
